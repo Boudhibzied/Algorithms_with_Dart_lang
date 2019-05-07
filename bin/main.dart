@@ -18,10 +18,10 @@ main(List<String> arguments) {
 
   switch (choice) {
     case '0':
-      print('thank you and aurevoir');
+      print('thank you and aurevoir.');
       break;
     case '1':
-      print('executing reverse string program :  ${r_s.reverseString()}');
+      print('executing reverse string program ===> result:  ${r_s.reverseString()}');
       break;
     default: print('null');
   }
